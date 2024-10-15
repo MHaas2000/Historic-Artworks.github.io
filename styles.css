@@ -1,0 +1,54 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  height: 100vw;
+  background: #f08080;
+}
+
+header {
+    background-color: #bb0073f1;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);    
+  }
+
+.grid-item {
+    background-color: #07a343;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(20, 23, 182, 0.1);
+    text-align: center;
+}
+
+.grid-item h2 {
+    margin-top: 0;
+    background: radial-gradient(circle, #80ffc1 0%, #ff6161 100%);
+    background-clip: text;
+    color:#f071b7
+}
+/* 
+https://www.letsbuildui.dev/articles/css-text-effects-five-minimal-examples
+*/
+
+.grid-item p {
+    background: linear-gradient(30deg, #9ED8DB 40%, #007B82 70%);
+    background-clip: text;
+    color: #000000c9;
+}
+/* 
+https://www.letsbuildui.dev/articles/css-text-effects-five-minimal-examples
+*/
